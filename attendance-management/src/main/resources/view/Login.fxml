@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.app.controller.LoginController">
+   <children>
+      <HBox layoutX="66.0" layoutY="119.0" prefHeight="150.0" prefWidth="376.0" spacing="75.0" AnchorPane.bottomAnchor="241.0" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="58.0" AnchorPane.topAnchor="119.0">
+         <children>
+            <Button fx:id="btnAdmin" mnemonicParsing="false" onAction="#btnAdminOnAction" prefHeight="150.0" prefWidth="150.0" text="ADMIN" />
+            <Button fx:id="btnIT" mnemonicParsing="false" onAction="#btnITOnAction" prefHeight="150.0" prefWidth="150.0" text="IT" />
+         </children>
+      </HBox>
+      <HBox layoutX="71.0" layoutY="314.0" prefHeight="150.0" prefWidth="376.0" spacing="75.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="58.0" AnchorPane.rightAnchor="58.0" AnchorPane.topAnchor="300.0">
+         <children>
+            <Button fx:id="btnHR" mnemonicParsing="false" onAction="#btnHROnAction" prefHeight="150.0" prefWidth="150.0" text="HR" />
+            <Button fx:id="btnOther" mnemonicParsing="false" onAction="#btnOtherOnAction" prefHeight="150.0" prefWidth="150.0" text="OTHER" />
+         </children>
+      </HBox>
+      <Label fx:id="lblName" alignment="CENTER" layoutX="62.0" layoutY="76.0" prefHeight="16.0" prefWidth="376.0" text="IJSE Employee Management System" AnchorPane.bottomAnchor="403.0" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="62.0" AnchorPane.topAnchor="76.0">
+         <font>
+            <Font name="Ubuntu Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgIjse" fitHeight="50.0" fitWidth="200.0" layoutX="150.0" layoutY="24.0">
+         <image>
+            <Image url="@.././asset/ijse-logo.gif" />
+         </image>
+      </ImageView>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>

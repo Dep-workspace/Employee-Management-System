@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="561.0" prefWidth="691.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.app.controller.EmployeeRegistrationFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="2.0" layoutY="14.0" prefHeight="37.0" prefWidth="778.0" text="Employee Registration Form" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="509.0" layoutY="90.0" />
+      <VBox layoutX="37.0" layoutY="90.0" prefHeight="262.0" prefWidth="89.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="151.0" text="Name :">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="153.0" text="ID :">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="153.0" text="Username :">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="150.0" text="Password :">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="168.0" text="NIC :">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="155.0" text="Contact NO :">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="168.0" text="Role :">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="136.0" layoutY="84.0" prefHeight="231.0" prefWidth="277.0">
+         <children>
+            <TextField>
+               <VBox.margin>
+                  <Insets bottom="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField>
+               <VBox.margin>
+                  <Insets bottom="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField>
+               <VBox.margin>
+                  <Insets bottom="12.0" />
+               </VBox.margin>
+            </TextField>
+            <PasswordField>
+               <VBox.margin>
+                  <Insets bottom="12.0" />
+               </VBox.margin>
+            </PasswordField>
+            <TextField>
+               <VBox.margin>
+                  <Insets bottom="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField>
+               <VBox.margin>
+                  <Insets bottom="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField>
+               <VBox.margin>
+                  <Insets bottom="12.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+      <ImageView fitHeight="154.0" fitWidth="161.0" layoutX="491.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="490.0" layoutY="247.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="161.0" text="Add Profile Picture" />
+      <ComboBox layoutX="136.0" layoutY="352.0" prefHeight="24.0" prefWidth="277.0" />
+      <Label layoutX="27.0" layoutY="356.0" prefHeight="16.0" prefWidth="100.0" text="Select Branch :" />
+      <Label layoutX="27.0" layoutY="405.0" prefHeight="16.0" prefWidth="100.0" text="Select status :" />
+      <ComboBox layoutX="136.0" layoutY="401.0" prefHeight="24.0" prefWidth="277.0" />
+      <Button layoutX="490.0" layoutY="401.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="161.0" text="Generate QR" />
+      <Button layoutX="296.0" layoutY="469.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="100.0" text="Submit">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

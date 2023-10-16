@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b2f15f;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.app.controller.AttendanceDetailFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="14.0" prefHeight="21.0" prefWidth="600.0" text="Attendance Details" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="49.0" text="Employee Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="437.0" layoutY="49.0" text="Employee ID">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="62.0" layoutY="98.0" text="Select Date" />
+      <TextField layoutX="221.0" layoutY="94.0" prefHeight="24.0" prefWidth="107.0" />
+      <TextField layoutX="432.0" layoutY="94.0" prefHeight="24.0" prefWidth="120.0" />
+      <Label layoutX="182.0" layoutY="98.0" prefHeight="16.0" prefWidth="40.0" text="To :" />
+      <Label layoutX="381.0" layoutY="98.0" prefHeight="16.0" prefWidth="56.0" text="From :" />
+      <TableView layoutX="26.0" layoutY="141.0" prefHeight="244.0" prefWidth="551.0">
+        <columns>
+          <TableColumn minWidth="0.0" prefWidth="0.0" text="C2" />
+          <TableColumn prefWidth="129.0" text="Sign In Date" />
+            <TableColumn prefWidth="130.0" text="Sign In Time" />
+            <TableColumn prefWidth="163.0" text="Sign Out Date" />
+            <TableColumn prefWidth="127.0" text="Sign Out Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
