@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="688.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.app.controller.AdminDashboardController">
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="688.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.app.controller.AdminDashboardController">
    <children>
       <Label alignment="CENTER" layoutX="264.0" layoutY="36.0" prefHeight="24.0" prefWidth="196.0" text="ADMIN DASHBOARD">
          <font>
@@ -31,6 +31,6 @@
         </columns>
       </TableView>
       <Button layoutX="171.0" layoutY="349.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="144.0" style="-fx-background-color: red;" text="Terminate" />
-      <Button layoutX="379.0" layoutY="349.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="144.0" style="-fx-background-color: green;" text="View Attendance" />
+      <Button fx:id="btnViewAttendance" layoutX="379.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnViewAttendanceOnAction" prefHeight="24.0" prefWidth="144.0" style="-fx-background-color: green;" text="View Attendance" />
    </children>
 </AnchorPane>

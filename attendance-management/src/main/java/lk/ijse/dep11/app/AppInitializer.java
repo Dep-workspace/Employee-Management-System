@@ -16,7 +16,7 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        AnchorPane root = FXMLLoader.load(getClass().getResource("/view/Login.fxml"));
+        AnchorPane root = FXMLLoader.load(getClass().getResource("/view/UserLogin.fxml"));
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
         primaryStage.setTitle("IJSE");
