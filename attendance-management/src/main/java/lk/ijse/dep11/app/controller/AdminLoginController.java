@@ -7,6 +7,5 @@ public class AdminLoginController {
     }
 
     public void btnSignUpOnAction(ActionEvent actionEvent) {
-        //abc
     }
 }
